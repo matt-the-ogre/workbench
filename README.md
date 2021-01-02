@@ -28,4 +28,12 @@ _Note_: I modified it further to make better use of 96" (8 foot) boards. By brin
 - 8 x Simpson Strong Ties model Rigid Tie RTC2Z connectors
 - lots of #8 1 1/4" screws (like 100 maybe?)
 
+## Cuts
+
+- 1 x Rail Long Length (2x6) =  55" (1 board)
+- 3 x Rail Long Length (2x4) =  55" (3 boards, with 39" cuts too)
+- 2 x Post Short Length (2x4) =  39" 
+- 4 x Rail Short Length (2x4) =  40.5" (2 boards)
+- 2 x Post Long Length (2x4) = 44.5" (1 board)
+
 ![alt text](workbench-diagonal-perspective-render.png "Modified workbench render")
