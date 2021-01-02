@@ -38,24 +38,28 @@ color("white")
             square([WorkSurfaceL, WorkSurfaceW], center = false);
 
 // posts
+// front left
 color("red")
     translate([0,0,0])
         scale([Twox4H, Twox4W, PostShortLength])
             cube(1, center = false);
 
+// front right
 color("red")
     translate([Twox4H + RailLongLength,0,0])
         scale([Twox4H, Twox4W, PostShortLength])
             cube(1, center = false);
 
+// back left
 color("red")
     translate([0,Twox4W + RailShortLength,0])
-        scale([Twox4H, Twox4W, PostShortLength])
+        scale([Twox4H, Twox4W, PostLongLength])
             cube(1, center = false);
 
+// back right
 color("red")
     translate([Twox4H + RailLongLength,Twox4W + RailShortLength,0])
-        scale([Twox4H, Twox4W, PostShortLength])
+        scale([Twox4H, Twox4W, PostLongLength])
             cube(1, center = false);
 
 // rails
@@ -83,9 +87,27 @@ color("green")
         scale([RailLongLength, Twox4H, Twox4W])
             cube(1, center = false);
 
-// Upper left
+// upper left
 color("yellow")
     translate([0,  Twox4W, PostShortLength - Twox4W])
+        scale([Twox4H, RailShortLength, Twox4W])
+            cube(1, center = false);
+
+// upper right
+color("yellow")
+    translate([Twox4H + RailLongLength,  Twox4W, PostShortLength - Twox4W])
+        scale([Twox4H, RailShortLength, Twox4W])
+            cube(1, center = false);
+
+// lower left
+color("yellow")
+    translate([0,  Twox4W, BottomRailLowerHeight])
+        scale([Twox4H, RailShortLength, Twox4W])
+            cube(1, center = false);
+
+// lower right
+color("yellow")
+    translate([Twox4H + RailLongLength,  Twox4W, BottomRailLowerHeight])
         scale([Twox4H, RailShortLength, Twox4W])
             cube(1, center = false);
 
